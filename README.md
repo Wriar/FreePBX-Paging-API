@@ -1,5 +1,5 @@
 # FreePBX-Paging-API
-A simple PHP API to dynamically send custom Audio Pages/Broadcast to Asterisk without the need of FreePBX Page Pro.
+A simple PHP API to dynamically send custom SIP Audio Pages/Broadcast to Asterisk without the need of FreePBX Page Pro.
 
 # Description
 Asterisk and FreePBX does not have a functionality to remotely trigger a page or announcement broadcast using an API. While this may be available in a paid later commercial upgrade in the Sangoma Page Pro module, developers have no way to dynamically broadcast messages on their FreePBX Servers by their own programs. This simple PHP file can be easily added within the FreePBX web server itself to provide a secure way to send dynamic pages from your own applications, such as VOIP emergency notification systems or bell systems. **This comes with the ability to play either a prerecorded message or to upload a custom audio file**
